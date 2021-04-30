@@ -93,3 +93,19 @@ audio{
     text-align: left;
     padding: 1%;
 }
+
+@media (max-width: 480px){
+    .meaning{
+        display: block;
+    }
+
+    .partOfSpeech{
+        width: 100%;
+        display: block;
+        text-align: left;
+    }
+
+    .definition{
+        display: block;
+    }
+}
