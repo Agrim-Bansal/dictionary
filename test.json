@@ -1,0 +1,33 @@
+{
+    "word":"no",
+    
+    "phonetics":[
+        {"text":"/no?/","audio":"https://lex-audio.useremarkable.com/mp3/no_us_1.mp3"}
+    ],
+    
+    "meanings":[
+        {
+            "partOfSpeech":"determiner",
+            "definitions":[
+                {
+                    "definition":"Not any.",
+                    "example":"there is no excuse"
+                }
+            ]
+        },
+        {
+            "partOfSpeech":"noun",
+            "definitions":[
+                {
+                    "definition":"A negative answer or decision, as in voting.",
+                    "synonyms":[
+                        "rejection","refusal","veto","no","negation","rebuff","disapproval","turning down","turndown","non-acceptance","declining","dismissal","spurning","cold shoulder","cold-shouldering","snub","snubbing"
+                        ],
+                    "example":"he was unable to change his automatic yes to a no"
+                }
+            ]
+        },
+        
+        {
+            "partOfSpeech":"exclamation",
+            "definitions":[{"definition":"Used to give a negative response.","synonyms":["no indeed","absolutely not","most certainly not","of course not","under no circumstances","by no means","not at all","negative","never","not really","no thanks"]}]},{"partOfSpeech":"adverb","definitions":[{"definition":"Not at all; to no extent."},{"definition":"Not."}]}]} 
