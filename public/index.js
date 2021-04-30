@@ -1,4 +1,4 @@
-const url="https://agrim-bansal-dictionary.herokuapp.com/"
+const url="https://agrim-bansal-dictionary.herokuapp.com"
 
 document.getElementsByClassName('btn')[0].onclick = async ()=>{
     var url_ext = "/api/meaning/"
