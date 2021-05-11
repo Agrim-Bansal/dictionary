@@ -1,10 +1,10 @@
 const url="https://agrim-bansal-dictionary.herokuapp.com"
 
 document.getElementsByClassName('btn')[0].onclick = async ()=>{
-
+    
+    document.getElementsByClassName('btn')[0].disabled= true;
     try{
 
-        document.getElementsByClassName('btn')[0].disabled= true;
         var url_ext = "/api/meaning/"
         const query = document.querySelector('input[type="text"]').value ; 
         res = await (await fetch(`${url}${url_ext}${query}`)).json() ;
@@ -42,11 +42,11 @@ document.getElementsByClassName('btn')[0].onclick = async ()=>{
         }
         document.getElementById('res').appendChild(list);
 
-        document.getElementsByClassName('btn')[0].disabled= false;
-
+        
     }catch(e){
         alert('Word Not Found')
     }
+    document.getElementsByClassName('btn')[0].disabled= false;
 
     
 }
